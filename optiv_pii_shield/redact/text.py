@@ -7,7 +7,7 @@ from ..render import render_markdown
 
 LIVE = ("redact", "review")  # review-band findings are redacted too: fail closed
 
-
+"""yo"""
 def merged_ranges(findings: list[Finding]) -> list[tuple[int, int, str]]:
     """Non-overlapping (start, end, token) ranges; overlapping hits collapse into the first token."""
     ranges = sorted((f.start, f.end, f.token or f"[{f.entity_type}]") for f in findings if f.decision in LIVE)
