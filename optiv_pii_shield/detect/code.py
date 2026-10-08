@@ -1,4 +1,4 @@
-"""Is this text source code?
+"""    Is this text source code?
 
 Personal data has shapes a rule can match; a company's source code does not. What can be told
 offline is that a text *is* code: its lines end in ";" or "{", start with ``def`` or ``import``,
